@@ -1,11 +1,9 @@
-version: "3"
-
+version: '3'
 services:
-  db-pg:
-    image: bitnami/postgresql
+  app:
+    build: .
     ports:
-      - 5432:5432
-    environment:
-      - POSTGRESQL_USERNAME=docker
-      - POSTGRESQL_PASSWORD=123
-      - POSTGRESQL_DATABASE=apigymmpas
+      - "4015:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
