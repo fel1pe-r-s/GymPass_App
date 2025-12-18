@@ -1,4 +1,4 @@
-**Tags**: #Autenticação&autorização #Docker #Fastify #Git #GitHubActions #Markdown #Node #Prisma #Tests #TypeScript #Zod #dayjs #vitest
+**Tags**: #Autenticação&autorização #Database #Docker #Fastify #Git #GitHubActions #Markdown #Node #Prisma #Tests #TypeScript #Zod #dayjs #vitest
 
 #GymPass_App # GymPass_App
 
